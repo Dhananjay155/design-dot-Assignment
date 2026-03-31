@@ -4,14 +4,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.clip-hero-shape {
-  clip-path: polygon(
-    22% 0%,
-    100% 0%,
-    100% 100%,
-    38% 100%,
-    28% 78%,
-    36% 52%,
-    28% 26%
-  );
-}

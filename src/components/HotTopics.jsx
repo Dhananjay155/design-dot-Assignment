@@ -11,12 +11,11 @@ export default function HotTopics() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-6">
         {/* HOT TOPICS badge */}
         <div
-          className="bg-orange-500 text-black font-bold flex items-center pl-5 shadow-lg shrink-0 mx-auto md:mx-0"
+              className="mb-auto md:mx-0 inline-flex  gap-2 bg-orange-500 px-6 py-3 text-black font-bold shadow-xl transition hover:bg-orange-600"
           style={{
-            width: "206px",
-            height: "49px",
-            borderRadius: "6px",
-            clipPath: "polygon(0 0, 90% 0, 80% 0, 92% 100%, 0 100%)",
+            borderRadius: "12px",
+                clipPath: "polygon(0 0, 88% 0, 100% 100%, 0% 100%)",
+                minWidth: "220px",
           }}
         >
           HOT TOPICS

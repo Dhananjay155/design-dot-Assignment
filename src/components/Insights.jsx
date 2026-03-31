@@ -3,8 +3,8 @@ export default function Insights() {
     <section className="py-16">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-[140px_1fr_1.2fr] gap-8 items-start">
         {/* BOX */}
-        <div className="bg-gray-300 w-[140px] h-[140px] rounded-2xl flex items-center justify-center text-center text-sm font-semibold text-gray-800">
-          INSPIRATION <br /> & <br /> INSIGHTS
+        <div className="bg-gray-300 w-[140px] h-[140px] rounded-2xl flex flex-col justify-end items-start p-4 text-sm font-bold text-gray-800">
+          INSPIRATION & <br /> INSIGHTS
         </div>
 
         {/* TEXT CONTENT */}
